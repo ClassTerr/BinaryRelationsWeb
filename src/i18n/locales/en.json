@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "Binary Relations Visualizer",
+    "clearAll": "Clear All",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard!",
+    "loadExample": "Load Example"
+  },
+  "canvas": {
+    "clickToAddNode": "Click to add node",
+    "dragToConnect": "Drag from one node to another to create relation",
+    "doubleClickToEdit": "Double-click node to edit label",
+    "rightClickToDelete": "Right-click to delete"
+  },
+  "textInput": {
+    "label": "Relation Text",
+    "placeholder": "Enter relation as: R = { (a, b), (c, d) }",
+    "error": "Parse error: {{message}}"
+  },
+  "notation": {
+    "label": "Notation",
+    "roster": "Roster",
+    "setBuilder": "Set-Builder",
+    "switch": "Switch notation style"
+  },
+  "analysis": {
+    "title": "Analysis",
+    "properties": "Properties",
+    "derivedSets": "Derived Sets",
+    "derivedRelations": "Derived Relations"
+  },
+  "properties": {
+    "reflexive": "Reflexive",
+    "reflexive_desc": "∀a ∈ O(R), (a, a) ∈ R",
+    "irreflexive": "Irreflexive",
+    "irreflexive_desc": "∀a ∈ O(R), (a, a) ∉ R",
+    "symmetric": "Symmetric",
+    "symmetric_desc": "∀a,b, (a, b) ∈ R ⇒ (b, a) ∈ R",
+    "antisymmetric": "Antisymmetric",
+    "antisymmetric_desc": "∀a,b, (a, b) ∈ R ∧ (b, a) ∈ R ⇒ a = b",
+    "asymmetric": "Asymmetric",
+    "asymmetric_desc": "∀a,b, (a, b) ∈ R ⇒ (b, a) ∉ R",
+    "transitive": "Transitive",
+    "transitive_desc": "∀a,b,c, (a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, c) ∈ R",
+    "intransitive": "Intransitive",
+    "intransitive_desc": "∀a,b,c, (a, b) ∈ R ∧ (b, c) ∈ R ⇒ (a, c) ∉ R",
+    "total": "Total",
+    "total_desc": "∀a≠b ∈ O(R), (a, b) ∈ R ∨ (b, a) ∈ R",
+    "trichotomous": "Trichotomous",
+    "trichotomous_desc": "∀a,b ∈ O(R), exactly one of {a=b, (a,b)∈R, (b,a)∈R} holds",
+    "euclidean": "Euclidean",
+    "euclidean_desc": "∀a,b,c, (a, b) ∈ R ∧ (a, c) ∈ R ⇒ (b, c) ∈ R"
+  }
+}
